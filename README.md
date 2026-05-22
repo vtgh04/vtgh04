@@ -1,5 +1,5 @@
 <!-- ////////////////////////////////////////////////////////// -->
-<!-- // PHANTOM INTERFACE // EXACT HEX PROTOCOL // OP: FADE  // -->
+<!-- // PHANTOM INTERFACE // EXACT HEX PROTOCOL // OP: ACTIVE // -->
 <!-- ////////////////////////////////////////////////////////// -->
 
 <!-- IDENTITY WIDGETS -->
@@ -22,7 +22,7 @@
 <br>
 
 <!-- ACTIVE CONTRACTS / OPERATIONS -->
-<h2 align="center" style="font-family: monospace; color: #09DBC7; letter-spacing: 3px; font-size: 16px;">[ ACTIVE CONTRACTS &amp; DEPLOYMENTS ]</h2>
+<h2 align="center" style="font-family: monospace; color: #09DBC7; letter-spacing: 3px; font-size: 16px;">[ PROJECTS ]</h2>
 
 <div align="center">
   <a href="https://github.com/vtgh04/RapPhim">

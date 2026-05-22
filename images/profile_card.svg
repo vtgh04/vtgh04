@@ -73,8 +73,8 @@
     <!-- Outer viewport frame -->
     <rect width="200" height="200" fill="#050B14" stroke="#17364F" stroke-width="2"/>
     
-    <!-- Viewport Camera Image (Agent GIF) -->
-    <image x="2" y="2" width="196" height="196" href="https://raw.githubusercontent.com/vtgh04/vtgh04/main/assets/fade_banner.gif" preserveAspectRatio="xMidYMid slice" opacity="0.8"/>
+    <!-- Viewport Camera Image (Agent Image) -->
+    <image x="2" y="2" width="196" height="196" href="186774197.jpg" preserveAspectRatio="xMidYMid slice" opacity="0.85"/>
     
     <!-- Camera Overlay (Static / Scanning Line) -->
     <rect width="200" height="200" fill="url(#scanlines)" pointer-events="none"/>
@@ -113,7 +113,7 @@
     <!-- Row 1 -->
     <g transform="translate(10, 40)">
       <text x="0" y="10" class="hud-label">CODENAME</text>
-      <text x="120" y="10" class="hud-value-cyan">FADE // SPECTRUM ARCHITECT</text>
+      <text x="120" y="10" class="hud-value-cyan">V. T. G. HUY // SYSTEM ARCHITECT</text>
       <line x1="0" y1="18" x2="520" y2="18" stroke="#17364F" stroke-width="0.5" stroke-dasharray="2,2"/>
     </g>
 
@@ -134,7 +134,7 @@
     <!-- Row 4 -->
     <g transform="translate(10, 115)">
       <text x="0" y="10" class="hud-label">OPERATIVE LEVEL</text>
-      <text x="120" y="10" class="hud-value-red">RADIANT CORE // LOCAL NETWORK ENCRYPTED</text>
+      <text x="120" y="10" class="hud-value-red">SECURE CORE // LOCAL NETWORK ENCRYPTED</text>
       <line x1="0" y1="18" x2="520" y2="18" stroke="#17364F" stroke-width="0.5" stroke-dasharray="2,2"/>
     </g>
 

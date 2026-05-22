@@ -73,7 +73,6 @@
     <text x="0" y="15" class="proj-title">OP // ECOCITY-MATRIX</text>
     
     <!-- Version -->
-    <text x="650" y="14" class="proj-ver">[ VER_0.9.4 ]</text>
     
     <!-- Underline -->
     <line x1="0" y1="24" x2="740" y2="24" stroke="#17364F" stroke-width="1"/>
