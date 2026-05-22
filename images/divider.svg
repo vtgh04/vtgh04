@@ -1,0 +1,22 @@
+<svg width="800" height="16" viewBox="0 0 800 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center Line -->
+  <line x1="10" y1="8" x2="370" y2="8" stroke="#17364F" stroke-width="1.5"/>
+  <line x1="430" y1="8" x2="790" y2="8" stroke="#17364F" stroke-width="1.5"/>
+  
+  <!-- Left/Right End Caps -->
+  <circle cx="10" cy="8" r="2" fill="#17364F"/>
+  <circle cx="790" cy="8" r="2" fill="#17364F"/>
+  
+  <!-- Tech Indicators near center -->
+  <line x1="350" y1="4" x2="350" y2="12" stroke="#17364F" stroke-width="1"/>
+  <line x1="450" y1="4" x2="450" y2="12" stroke="#17364F" stroke-width="1"/>
+
+  <!-- Center Diamond & Crosshairs -->
+  <g transform="translate(400, 8)">
+    <path d="M 0 -6 L 6 0 L 0 6 L -6 0 Z" fill="#0D1A2F" stroke="#BD0927" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2" fill="#09DBC7"/>
+    <!-- Outer accent ticks -->
+    <line x1="-12" y1="0" x2="-8" y2="0" stroke="#09DBC7" stroke-width="1"/>
+    <line x1="8" y1="0" x2="12" y2="0" stroke="#09DBC7" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,16 +1,71 @@
-## Hi there 👋
+<!-- ////////////////////////////////////////////////////////// -->
+<!-- // PHANTOM INTERFACE // EXACT HEX PROTOCOL // OP: FADE  // -->
+<!-- ////////////////////////////////////////////////////////// -->
 
-<!--
-**vtgh04/vtgh04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!-- IDENTITY WIDGETS -->
+<div align="center">
+  <img src="images/header.svg" width="800" alt="V. T. G. Huy // Command Identity" />
+</div>
 
-Here are some ideas to get you started:
+<br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <img src="images/profile_card.svg" width="800" alt="Operative Dossier" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="images/divider.svg" width="800" alt="Tactical Spacer" />
+</div>
+
+<br>
+
+<!-- ACTIVE CONTRACTS / OPERATIONS -->
+<h2 align="center" style="font-family: monospace; color: #09DBC7; letter-spacing: 3px; font-size: 16px;">[ ACTIVE CONTRACTS &amp; DEPLOYMENTS ]</h2>
+
+<div align="center">
+  <a href="https://github.com/vtgh04/Legal-LLM-Model">
+    <img src="images/project_nexus.svg" width="800" alt="OP // LEGAL-LLM-NEXUS" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://github.com/vtgh04/ECOCITYFARM">
+    <img src="images/project_ecocity.svg" width="800" alt="OP // ECOCITY-MATRIX" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <img src="images/divider.svg" width="800" alt="Tactical Spacer" />
+</div>
+
+<br>
+
+<!-- TELEMETRY / STATS -->
+<h2 align="center" style="font-family: monospace; color: #BD0927; letter-spacing: 3px; font-size: 16px;">[ TACTICAL TELEMETRY DIAGNOSTICS ]</h2>
+
+<!-- DUAL WIDGET SPLIT TABLE -->
+<table align="center" style="width: 800px; border-collapse: collapse; border: none; background-color: #0D1A2F; margin: 0 auto;">
+  <tr>
+    <td style="width: 50%; padding: 0 8px 0 0; border: none; background-color: #0D1A2F;">
+      <img src="https://github-readme-stats.vercel.app/api?username=vtgh04&amp;show_icons=true&amp;bg_color=0D1A2F&amp;title_color=09DBC7&amp;icon_color=09DBC7&amp;text_color=94A3B8&amp;border_color=17364F&amp;hide_border=false" width="100%" alt="GitHub Stats" />
+    </td>
+    <td style="width: 50%; padding: 0 0 0 8px; border: none; background-color: #0D1A2F;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vtgh04&amp;layout=compact&amp;bg_color=0D1A2F&amp;title_color=09DBC7&amp;icon_color=09DBC7&amp;text_color=94A3B8&amp;border_color=17364F&amp;hide_border=false" width="100%" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- FULL WIDTH ACTIVITY GRAPH -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vtgh04&amp;bg_color=0D1A2F&amp;hide_border=false&amp;border_color=17364F&amp;line=09DBC7&amp;point=BD0927&amp;color=94A3B8&amp;title_color=09DBC7" width="800" alt="Activity Graph" />
+</div>
+
+<br>
