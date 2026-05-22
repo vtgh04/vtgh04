@@ -47,7 +47,7 @@
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0D1A2F"/>
       <stop offset="60%" stop-color="#0D1A2F"/>
-      <stop offset="100%" stop-color="#1A0B1E"/> <!-- Subtle touch of nightmare purple/crimson at the corner -->
+      <stop offset="100%" stop-color="#1A0B1E"/> <!-- Subtle touch of deep cyber purple/crimson at the corner -->
     </linearGradient>
 
     <!-- Glowing effect -->
@@ -110,7 +110,7 @@
   <!-- Left Header Data Block -->
   <g transform="translate(40, 25)">
     <!-- Classification -->
-    <text x="0" y="12" class="hud-alert">// CLASSIFIED NEURAL HUB // OP: ACTIVE</text>
+    <text x="0" y="12" class="hud-alert">// PRODUCTION NODE GRID // NETWORK: SECURED</text>
     <rect x="0" y="20" width="80" height="2" fill="#BD0927"/>
     
     <!-- Name -->
@@ -136,8 +136,8 @@
     <text x="130" y="0" class="hud-mono">| DECRYPT_KEY: NEXUS_V2</text>
     <text x="350" y="0" class="hud-mono">| COGNITIVE NODE: 84c703a0</text>
     
-    <!-- Threat level indicator -->
-    <rect x="520" y="-12" width="95" height="16" fill="#500A1F" stroke="#BD0927" stroke-width="1"/>
-    <text x="525" y="0" font-family="Share Tech Mono" font-size="9" fill="#BD0927" font-weight="bold">THREAT: CRITICAL</text>
+    <!-- System Status indicator -->
+    <rect x="520" y="-12" width="95" height="16" fill="#0D1A2F" stroke="#09DBC7" stroke-width="1"/>
+    <text x="525" y="0" font-family="Share Tech Mono" font-size="9" fill="#09DBC7" font-weight="bold">STATUS: NOMINAL</text>
   </g>
 </svg>
