@@ -1,0 +1,134 @@
+<svg width="390" height="170" viewBox="0 0 390 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap');
+      .hud-title {
+        font-family: 'Orbitron', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        fill: #09DBC7;
+        letter-spacing: 2px;
+      }
+      .hud-label {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        fill: #94A3B8;
+        letter-spacing: 1px;
+      }
+      .hud-val-cyan {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 9px;
+        fill: #09DBC7;
+        font-weight: bold;
+      }
+      .hud-val-red {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 9px;
+        fill: #BD0927;
+        font-weight: bold;
+      }
+    ]]></style>
+    
+    <!-- Background Grid -->
+    <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#17364F" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1A2F"/>
+      <stop offset="100%" stop-color="#070F1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="390" height="170" fill="url(#bgGrad)"/>
+  <rect width="390" height="170" fill="url(#grid)"/>
+  
+  <!-- Outer Frame -->
+  <rect x="6" y="6" width="378" height="158" fill="none" stroke="#17364F" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Corner Technical Accents -->
+  <path d="M 6 20 L 6 6 L 20 6" fill="none" stroke="#09DBC7" stroke-width="2"/>
+  <path d="M 370 6 L 384 6 L 384 20" fill="none" stroke="#17364F" stroke-width="1.5"/>
+  <path d="M 6 150 L 6 164 L 20 164" fill="none" stroke="#17364F" stroke-width="1.5"/>
+  <path d="M 370 164 L 384 164 L 384 150" fill="none" stroke="#BD0927" stroke-width="2"/>
+
+  <!-- Left Accent Stripe -->
+  <rect x="10" y="15" width="2" height="140" fill="#09DBC7"/>
+
+  <!-- Title -->
+  <text x="20" y="24" class="hud-title">[ TECH MATRIX ]</text>
+  <line x1="20" y1="28" x2="250" y2="28" stroke="#17364F" stroke-width="1"/>
+  <rect x="20" y="28" width="40" height="1.5" fill="#09DBC7"/>
+
+  <!-- Skills Columns -->
+  <!-- Column 1 (Frontend & Design - Cyan theme) -->
+  <g transform="translate(20, 36)">
+    <!-- Row 1: HTML -->
+    <g transform="translate(0, 10)">
+      <text x="0" y="8" class="hud-label">HTML</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="81" height="2" fill="#09DBC7"/>
+      <text x="155" y="8" class="hud-val-cyan">90%</text>
+    </g>
+
+    <!-- Row 2: CSS -->
+    <g transform="translate(0, 32)">
+      <text x="0" y="8" class="hud-label">CSS</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="76" height="2" fill="#09DBC7"/>
+      <text x="155" y="8" class="hud-val-cyan">85%</text>
+    </g>
+
+    <!-- Row 3: TAIWIND -->
+    <g transform="translate(0, 54)">
+      <text x="0" y="8" class="hud-label">TAIWIND</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="76" height="2" fill="#09DBC7"/>
+      <text x="155" y="8" class="hud-val-cyan">85%</text>
+    </g>
+
+    <!-- Row 4: FIGMA -->
+    <g transform="translate(0, 76)">
+      <text x="0" y="8" class="hud-label">FIGMA</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="63" height="2" fill="#09DBC7"/>
+      <text x="155" y="8" class="hud-val-cyan">70%</text>
+    </g>
+  </g>
+
+  <!-- Column 2 (Backend & Database - Red theme) -->
+  <g transform="translate(205, 36)">
+    <!-- Row 1: JAVA -->
+    <g transform="translate(0, 10)">
+      <text x="0" y="8" class="hud-label">JAVA</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="67" height="2" fill="#BD0927"/>
+      <text x="155" y="8" class="hud-val-red">75%</text>
+    </g>
+
+    <!-- Row 2: PYTHON -->
+    <g transform="translate(0, 32)">
+      <text x="0" y="8" class="hud-label">PYTHON</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="72" height="2" fill="#BD0927"/>
+      <text x="155" y="8" class="hud-val-red">80%</text>
+    </g>
+
+    <!-- Row 3: SQL -->
+    <g transform="translate(0, 54)">
+      <text x="0" y="8" class="hud-label">SQL</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="72" height="2" fill="#BD0927"/>
+      <text x="155" y="8" class="hud-val-red">80%</text>
+    </g>
+
+    <!-- Row 4: MONGODB -->
+    <g transform="translate(0, 76)">
+      <text x="0" y="8" class="hud-label">MONGODB</text>
+      <rect x="60" y="2" width="90" height="6" fill="#17364F" fill-opacity="0.5" stroke="#17364F" stroke-width="0.5"/>
+      <rect x="62" y="4" width="63" height="2" fill="#BD0927"/>
+      <text x="155" y="8" class="hud-val-red">70%</text>
+    </g>
+  </g>
+</svg>

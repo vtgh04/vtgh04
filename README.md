@@ -25,8 +25,8 @@
 <h2 align="center" style="font-family: monospace; color: #09DBC7; letter-spacing: 3px; font-size: 16px;">[ ACTIVE CONTRACTS &amp; DEPLOYMENTS ]</h2>
 
 <div align="center">
-  <a href="https://github.com/vtgh04/Legal-LLM-Model">
-    <img src="images/project_nexus.svg" width="800" alt="OP // LEGAL-LLM-NEXUS" />
+  <a href="https://github.com/vtgh04/RapPhim">
+    <img src="images/project_rapphim.svg" width="800" alt="OP // RAP-PHIM-MATRIX" />
   </a>
 </div>
 
@@ -53,10 +53,10 @@
 <table align="center" style="width: 800px; border-collapse: collapse; border: none; background-color: #0D1A2F; margin: 0 auto;">
   <tr>
     <td style="width: 50%; padding: 0 8px 0 0; border: none; background-color: #0D1A2F;">
-      <img src="https://github-readme-stats.vercel.app/api?username=vtgh04&amp;show_icons=true&amp;bg_color=0D1A2F&amp;title_color=09DBC7&amp;icon_color=09DBC7&amp;text_color=94A3B8&amp;border_color=17364F&amp;hide_border=false" width="100%" alt="GitHub Stats" />
+      <img src="images/github_stats.svg" width="100%" alt="GitHub Stats" />
     </td>
     <td style="width: 50%; padding: 0 0 0 8px; border: none; background-color: #0D1A2F;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vtgh04&amp;layout=compact&amp;bg_color=0D1A2F&amp;title_color=09DBC7&amp;icon_color=09DBC7&amp;text_color=94A3B8&amp;border_color=17364F&amp;hide_border=false" width="100%" alt="Top Languages" />
+      <img src="images/skills.svg" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>

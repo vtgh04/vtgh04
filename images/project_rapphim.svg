@@ -1,0 +1,106 @@
+<svg width="800" height="140" viewBox="0 0 800 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Share+Tech+Mono&display=swap');
+      .proj-title {
+        font-family: 'Orbitron', -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 15px;
+        fill: #09DBC7;
+        letter-spacing: 2px;
+      }
+      .proj-ver {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 11px;
+        fill: #94A3B8;
+        letter-spacing: 1px;
+      }
+      .proj-desc {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #ECEFF4;
+        line-height: 1.6;
+      }
+      .proj-status {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        fill: #09DBC7;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+      .proj-btn-text {
+        font-family: 'Orbitron', -apple-system, sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        fill: #09DBC7;
+        letter-spacing: 2px;
+      }
+    ]]></style>
+    
+    <!-- Background Grid -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#17364F" stroke-width="0.75" opacity="0.25"/>
+    </pattern>
+
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1A2F"/>
+      <stop offset="100%" stop-color="#071221"/>
+    </linearGradient>
+
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="140" fill="url(#bgGrad)"/>
+  <rect width="800" height="140" fill="url(#grid)"/>
+  <rect x="10" y="10" width="780" height="120" fill="none" stroke="#17364F" stroke-width="1"/>
+  
+  <!-- Left Side Accent Highlight -->
+  <rect x="10" y="10" width="4" height="120" fill="#09DBC7"/>
+
+  <!-- Left Side Diagonal Cut accent -->
+  <path d="M 10 10 L 25 10 L 10 25 Z" fill="#09DBC7"/>
+
+  <!-- Header Info -->
+  <g transform="translate(30, 20)">
+    <!-- Title -->
+    <text x="0" y="15" class="proj-title">OP // RAP-PHIM-MATRIX</text>
+    
+    <!-- Version -->
+    <text x="650" y="14" class="proj-ver">[ VER_1.0.0 ]</text>
+    
+    <!-- Underline -->
+    <line x1="0" y1="24" x2="740" y2="24" stroke="#17364F" stroke-width="1"/>
+    <rect x="0" y="24" width="120" height="2" fill="#09DBC7"/>
+  </g>
+
+  <!-- Description Body -->
+  <g transform="translate(30, 62)">
+    <text x="0" y="10" class="proj-desc">A modern cinema ticket reservation and theater management network grid.</text>
+    <text x="0" y="26" class="proj-desc">Streamlines seat allocation, ticketing scheduling, and centralized database transactions.</text>
+  </g>
+
+  <!-- Bottom Interactive Bar -->
+  <g transform="translate(30, 102)">
+    <!-- Status Dot -->
+    <circle cx="5" cy="5" r="3" fill="#09DBC7" filter="url(#glow-cyan)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Status Text -->
+    <text x="15" y="8" class="proj-status">SYS_PORTAL: ACTIVE [DATABASE_ONLINE]</text>
+
+    <!-- Initiate Access Button Graphic -->
+    <g transform="translate(590, -10)">
+      <rect width="150" height="26" fill="#17364F" fill-opacity="0.3" stroke="#09DBC7" stroke-width="1.5"/>
+      <!-- Button Corner Highlight -->
+      <path d="M 144 26 L 150 20 L 150 26 Z" fill="#09DBC7"/>
+      <text x="75" y="17" class="proj-btn-text" text-anchor="middle">INITIATE ACCESS</text>
+    </g>
+  </g>
+</svg>
