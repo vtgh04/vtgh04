@@ -113,28 +113,28 @@
     <!-- Row 1 -->
     <g transform="translate(10, 40)">
       <text x="0" y="10" class="hud-label">CODENAME</text>
-      <text x="120" y="10" class="hud-value-cyan">V. T. G. HUY // SR. RAG &amp; SYSTEMS ENGINEER</text>
+      <text x="120" y="10" class="hud-value-cyan">vtgh1602</text>
       <line x1="0" y1="18" x2="520" y2="18" stroke="#17364F" stroke-width="0.5" stroke-dasharray="2,2"/>
     </g>
 
     <!-- Row 2 -->
     <g transform="translate(10, 65)">
-      <text x="0" y="10" class="hud-label">CORE ARCHITECTURE</text>
-      <text x="120" y="10" class="hud-value">ENTERPRISE RAG &amp; HIGH-SCALE VECTOR STORAGE</text>
+      <text x="0" y="10" class="hud-label">CORE </text>
+      <text x="120" y="10" class="hud-value">INTELLIGENT SYSTEMS &amp; VECTOR INFRASTRUCTURE </text>
       <line x1="0" y1="18" x2="520" y2="18" stroke="#17364F" stroke-width="0.5" stroke-dasharray="2,2"/>
     </g>
 
     <!-- Row 3 -->
     <g transform="translate(10, 90)">
       <text x="0" y="10" class="hud-label">SIMULATION NODE</text>
-      <text x="120" y="10" class="hud-value">UNITY REAL-TIME SIMULATIONS &amp; C# STATE LOGIC</text>
+      <text x="120" y="10" class="hud-value">STATE SYNCHRONIZATION</text>
       <line x1="0" y1="18" x2="520" y2="18" stroke="#17364F" stroke-width="0.5" stroke-dasharray="2,2"/>
     </g>
 
     <!-- Row 4 -->
     <g transform="translate(10, 115)">
-      <text x="0" y="10" class="hud-label">DEPLOYMENT CAPACITY</text>
-      <text x="120" y="10" class="hud-value-red">PRODUCTION STACK // PRIVATE SECURE NODE</text>
+      <text x="0" y="10" class="hud-label">DEPLOYMENT </text>
+      <text x="120" y="10" class="hud-value-red">PRODUCTION STACK</text>
       <line x1="0" y1="18" x2="520" y2="18" stroke="#17364F" stroke-width="0.5" stroke-dasharray="2,2"/>
     </g>
 
@@ -142,10 +142,10 @@
     <g transform="translate(10, 140)">
       <rect x="0" y="0" width="520" height="60" fill="#17364F" fill-opacity="0.15" stroke="#17364F" stroke-width="1"/>
       <path d="M 0 0 L 10 0 L 0 10 Z" fill="#09DBC7"/>
-      <text x="10" y="15" class="hud-mono-bold" font-size="9" fill="#09DBC7">// SYSTEM INTEGRITY DIAGNOSTICS:</text>
+      <text x="10" y="15" class="hud-mono-bold" font-size="9" fill="#09DBC7">SYSTEM INTEGRITY DIAGNOSTICS:</text>
       
-      <text x="10" y="32" class="hud-desc" font-size="10">Architects scalable private corporate search engines with vector indexing.</text>
-      <text x="10" y="46" class="hud-desc" font-size="10">Engineers robust real-time state synchronization for interactive clients.</text>
+      <text x="10" y="32" class="hud-desc" font-size="10">Building scalable AI-driven systems with modern engineering workflows.</text>
+      <text x="10" y="46" class="hud-desc" font-size="10">Focused on intelligent infrastructure, clean architecture, and realtime orchestration.</text>
     </g>
 
 
