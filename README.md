@@ -25,6 +25,14 @@
 <h2 align="center" style="font-family: monospace; color: #09DBC7; letter-spacing: 3px; font-size: 16px;">[ PROJECTS ]</h2>
 
 <div align="center">
+  <a href="https://github.com/vtgh04/TodoX">
+    <img src="images/project_todox.svg?v=2" width="800" alt="OP // TODO-X-MATRIX" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
   <a href="https://github.com/vtgh04/RapPhim">
     <img src="images/project_rapphim.svg?v=2" width="800" alt="OP // RAP-PHIM-MATRIX" />
   </a>
