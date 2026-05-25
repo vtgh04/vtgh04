@@ -148,24 +148,6 @@
       <text x="10" y="46" class="hud-desc" font-size="10">Engineers robust real-time state synchronization for interactive clients.</text>
     </g>
 
-    <!-- Tech Badges inside Card -->
-    <!-- Badge 1 (Teal) -->
-    <g transform="translate(320, 5)">
-      <rect width="60" height="14" fill="#0D1A2F" stroke="#09DBC7" stroke-width="1"/>
-      <rect width="4" height="14" fill="#09DBC7"/>
-      <text x="8" y="10" class="hud-badge-text" fill="#09DBC7">RAG // AI</text>
-    </g>
-    <!-- Badge 2 (Red) -->
-    <g transform="translate(390, 5)">
-      <rect width="65" height="14" fill="#0D1A2F" stroke="#BD0927" stroke-width="1"/>
-      <rect width="4" height="14" fill="#BD0927"/>
-      <text x="8" y="10" class="hud-badge-text" fill="#BD0927">UNITY // SIM</text>
-    </g>
-    <!-- Badge 3 (Muted Blue) -->
-    <g transform="translate(465, 5)">
-      <rect width="55" height="14" fill="#0D1A2F" stroke="#17364F" stroke-width="1"/>
-      <rect width="4" height="14" fill="#17364F"/>
-      <text x="8" y="10" class="hud-badge-text" fill="#94A3B8">SYS_CORE</text>
-    </g>
+
   </g>
 </svg>
