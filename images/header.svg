@@ -101,7 +101,7 @@
     </line>
     <!-- Tech Crosshair and Labels -->
     <path d="M 65 5 L 65 15 M 65 95 L 65 105 M 15 55 L 25 55 M 105 55 L 115 55" stroke="#17364F" stroke-width="1"/>
-    <text x="5" y="-3" class="hud-mono" font-size="8">SYS_SCAN // RADAR_04</text>
+    
     <text x="120" y="58" class="hud-mono" font-size="8">VN_SRV</text>
     <text x="120" y="70" class="hud-mono-bold" font-size="8">21.02° N</text>
     <text x="120" y="80" class="hud-mono-bold" font-size="8">105.83° E</text>
@@ -132,12 +132,5 @@
       <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
     </circle>
     <text x="15" y="0" class="hud-mono-bold" fill="#09DBC7">SYS: ACTIVE</text>
-    
-    <text x="130" y="0" class="hud-mono">| DECRYPT_KEY: NEXUS_V2</text>
-    <text x="350" y="0" class="hud-mono">| COGNITIVE NODE: 84c703a0</text>
-    
-    <!-- System Status indicator -->
-    <rect x="520" y="-12" width="95" height="16" fill="#0D1A2F" stroke="#09DBC7" stroke-width="1"/>
-    <text x="525" y="0" font-family="Share Tech Mono" font-size="9" fill="#09DBC7" font-weight="bold">STATUS: NOMINAL</text>
   </g>
 </svg>
