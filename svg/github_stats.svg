@@ -1,0 +1,184 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&family=Share+Tech+Mono&display=swap');
+      .stat-header {
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+        font-size: 13px;
+        fill: #EDE6D6;
+        letter-spacing: 2px;
+      }
+      .stat-label {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        fill: #D6B36A;
+        letter-spacing: 1px;
+      }
+      .stat-addr {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        fill: #EDE6D6;
+        opacity: 0.5;
+      }
+      .stat-val {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #EDE6D6;
+        font-weight: bold;
+      }
+      .stat-unit {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        fill: #C1121F;
+        font-weight: bold;
+      }
+    ]]></style>
+
+    <!-- Background Sepia Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090807"/>
+      <stop offset="100%" stop-color="#141311"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid-pattern" width="15" height="15" patternUnits="userSpaceOnUse">
+      <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#D6B36A" stroke-width="0.5" opacity="0.08"/>
+    </pattern>
+
+    <!-- Gold Glow -->
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Crimson Glow -->
+    <filter id="glow-crimson" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGrad)"/>
+  <rect width="400" height="300" fill="url(#grid-pattern)"/>
+
+  <!-- Border Frame (Cathedral Arch / Gothic Silhouette) -->
+  <path d="M 10 10 L 390 10 L 390 290 L 10 290 Z" fill="none" stroke="#333333" stroke-width="1.2"/>
+  <path d="M 13 13 L 387 13 L 387 287 L 13 287 Z" fill="none" stroke="#D6B36A" stroke-width="0.8" opacity="0.8"/>
+  
+  <!-- Corner Ornaments (Angled Lines) -->
+  <path d="M 13 30 L 30 13" stroke="#D6B36A" stroke-width="1.5"/>
+  <path d="M 387 30 L 370 13" stroke="#D6B36A" stroke-width="1.5"/>
+  <path d="M 13 270 L 30 287" stroke="#D6B36A" stroke-width="1.5"/>
+  <path d="M 387 270 L 370 287" stroke="#D6B36A" stroke-width="1.5"/>
+
+  <!-- Left Accent Ribbon -->
+  <rect x="16" y="25" width="2" height="250" fill="#D6B36A" opacity="0.5"/>
+  <rect x="16" y="80" width="2" height="40" fill="#C1121F"/>
+
+  <!-- Header -->
+  <g transform="translate(30, 25)">
+    <text x="0" y="15" class="stat-header">SYS // TELEMETRY</text>
+    <line x1="0" y1="24" x2="340" y2="24" stroke="#333333" stroke-width="1"/>
+    <rect x="0" y="24" width="80" height="2" fill="#D6B36A"/>
+    <!-- Small Laterano cross symbol -->
+    <path d="M 330 8 L 338 8 M 334 4 L 334 12" stroke="#D6B36A" stroke-width="0.8"/>
+  </g>
+
+  <!-- Left Side: Stats List -->
+  <g transform="translate(30, 75)">
+    <!-- Stat 1 -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="10" class="stat-addr">0x7C04</text>
+      <text x="50" y="10" class="stat-label">COMMITS</text>
+      <text x="180" y="10" class="stat-val" text-anchor="end">1,482</text>
+      <text x="185" y="10" class="stat-unit">[VAL]</text>
+      <line x1="0" y1="18" x2="195" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+    </g>
+
+    <!-- Stat 2 -->
+    <g transform="translate(0, 35)">
+      <text x="0" y="10" class="stat-addr">0x8A12</text>
+      <text x="50" y="10" class="stat-label">CONTRIBS</text>
+      <text x="180" y="10" class="stat-val" text-anchor="end">98.4</text>
+      <text x="185" y="10" class="stat-unit">%</text>
+      <line x1="0" y1="18" x2="195" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+    </g>
+
+    <!-- Stat 3 -->
+    <g transform="translate(0, 70)">
+      <text x="0" y="10" class="stat-addr">0x9E2B</text>
+      <text x="50" y="10" class="stat-label">STARS</text>
+      <text x="180" y="10" class="stat-val" text-anchor="end">42</text>
+      <text x="185" y="10" class="stat-unit">[NET]</text>
+      <line x1="0" y1="18" x2="195" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+    </g>
+
+    <!-- Stat 4 -->
+    <g transform="translate(0, 105)">
+      <text x="0" y="10" class="stat-addr">0xB2FF</text>
+      <text x="50" y="10" class="stat-label">REP_INDEX</text>
+      <text x="180" y="10" class="stat-val" text-anchor="end">A+</text>
+      <text x="185" y="10" class="stat-unit">[SEC]</text>
+      <line x1="0" y1="18" x2="195" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+    </g>
+
+    <!-- Stat 5 -->
+    <g transform="translate(0, 140)">
+      <text x="0" y="10" class="stat-addr">0xC40E</text>
+      <text x="50" y="10" class="stat-label">UPTIME</text>
+      <text x="180" y="10" class="stat-val" text-anchor="end">100</text>
+      <text x="185" y="10" class="stat-unit">%</text>
+      <line x1="0" y1="18" x2="195" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.3"/>
+    </g>
+  </g>
+
+  <!-- Right Side: Sweeper Dial (Diagnostics) -->
+  <g transform="translate(290, 160)">
+    <!-- Outer Decorative Rings -->
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#333333" stroke-width="1"/>
+    <circle cx="0" cy="0" r="65" fill="none" stroke="#D6B36A" stroke-width="0.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#D6B36A" stroke-width="0.8" stroke-dasharray="4,8" opacity="0.6"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#333333" stroke-width="1"/>
+    
+    <!-- Central Sigil Cross -->
+    <path d="M -8 0 L 8 0 M 0 -8 L 0 8" stroke="#D6B36A" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="2.5" fill="#C1121F"/>
+
+    <!-- Rotating radar sweep line -->
+    <line x1="0" y1="0" x2="0" y2="-62" stroke="#D6B36A" stroke-width="1.5" opacity="0.9" filter="url(#glow-gold)">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Faded sweep echo lines -->
+    <line x1="0" y1="0" x2="21" y2="-58" stroke="#D6B36A" stroke-width="1.2" opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="0" x2="40" y2="-47" stroke="#D6B36A" stroke-width="0.8" opacity="0.25">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Angle Ticks -->
+    <path d="M 0 -70 L 0 -66 M 70 0 L 66 0 M 0 70 L 0 66 M -70 0 L -66 0" stroke="#EDE6D6" stroke-width="1" opacity="0.8"/>
+    
+    <!-- Diagnostic Label -->
+    <text x="0" y="85" font-family="Share Tech Mono" font-size="8" fill="#EDE6D6" opacity="0.6" text-anchor="middle" letter-spacing="1.5">RADAR_SWEEP // ACTIVE</text>
+  </g>
+
+  <!-- Bottom status ticker -->
+  <g transform="translate(30, 268)">
+    <circle cx="5" cy="5" r="2.5" fill="#C1121F" filter="url(#glow-crimson)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="15" y="8" font-family="Share Tech Mono" font-size="9" fill="#EDE6D6" opacity="0.7">STATUS: DIAGNOSTICS SECURE</text>
+    <text x="340" y="8" font-family="Share Tech Mono" font-size="9" fill="#D6B36A" text-anchor="end">SYS_VER_4.0</text>
+  </g>
+</svg>

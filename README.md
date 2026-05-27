@@ -22,7 +22,7 @@
 <br>
 
 <!-- ACTIVE CONTRACTS / OPERATIONS -->
-<h2 align="center" style="font-family: monospace; color: #09DBC7; letter-spacing: 3px; font-size: 16px;">[ PROJECTS ]</h2>
+<h2 align="center" style="font-family: monospace; color: #D6B36A; letter-spacing: 3px; font-size: 16px;">[ PROJECTS ]</h2>
 
 <div align="center">
   <a href="https://github.com/vtgh04/TodoX">
@@ -55,15 +55,15 @@
 <br>
 
 <!-- TELEMETRY / STATS -->
-<h2 align="center" style="font-family: monospace; color: #BD0927; letter-spacing: 3px; font-size: 16px;">[ TACTICAL TELEMETRY DIAGNOSTICS ]</h2>
+<h2 align="center" style="font-family: monospace; color: #C1121F; letter-spacing: 3px; font-size: 16px;">[ TACTICAL TELEMETRY DIAGNOSTICS ]</h2>
 
 <!-- DUAL WIDGET SPLIT TABLE -->
-<table align="center" style="width: 800px; border-collapse: collapse; border: none; background-color: #0D1A2F; margin: 0 auto;">
+<table align="center" style="width: 800px; border-collapse: collapse; border: none; background-color: #090807; margin: 0 auto;">
   <tr>
-    <td style="width: 50%; padding: 0 8px 0 0; border: none; background-color: #0D1A2F;">
+    <td style="width: 50%; padding: 0 8px 0 0; border: none; background-color: #090807;">
       <img src="images/github_stats.svg?v=4" width="100%" alt="GitHub Stats" />
     </td>
-    <td style="width: 50%; padding: 0 0 0 8px; border: none; background-color: #0D1A2F;">
+    <td style="width: 50%; padding: 0 0 0 8px; border: none; background-color: #090807;">
       <img src="images/skills.svg?v=4" width="100%" alt="Top Languages" />
     </td>
   </tr>
@@ -73,7 +73,7 @@
 
 <!-- FULL WIDTH ACTIVITY GRAPH -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vtgh04&amp;bg_color=0D1A2F&amp;hide_border=false&amp;border_color=17364F&amp;line=09DBC7&amp;point=BD0927&amp;color=94A3B8&amp;title_color=09DBC7" width="800" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vtgh04&amp;bg_color=090807&amp;hide_border=false&amp;border_color=333333&amp;line=D6B36A&amp;point=C1121F&amp;color=EDE6D6&amp;title_color=D6B36A" width="800" alt="Activity Graph" />
 </div>
 
 <br>

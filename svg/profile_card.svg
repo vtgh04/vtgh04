@@ -1,0 +1,198 @@
+<svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;900&family=Share+Tech+Mono&display=swap');
+      .hud-header {
+        font-family: 'Cinzel', serif;
+        font-weight: 900;
+        font-size: 13px;
+        fill: #EDE6D6;
+        letter-spacing: 2px;
+      }
+      .hud-label {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 11px;
+        font-weight: bold;
+        fill: #D6B36A;
+        letter-spacing: 1px;
+      }
+      .hud-value {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #EDE6D6;
+      }
+      .hud-value-ivory {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #EDE6D6;
+        font-weight: bold;
+      }
+      .hud-value-gold {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        fill: #D6B36A;
+        font-weight: bold;
+      }
+      .hud-desc {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 11px;
+        fill: #EDE6D6;
+        opacity: 0.7;
+        line-height: 1.5;
+      }
+    ]]></style>
+    
+    <!-- Background Grid -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#222222" stroke-width="0.75" opacity="0.25"/>
+    </pattern>
+
+    <!-- Scanline overlay pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.5" opacity="0.2"/>
+    </pattern>
+
+    <!-- Background sepia gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090807"/>
+      <stop offset="100%" stop-color="#141311"/>
+    </linearGradient>
+
+    <!-- Golden Glow Filter -->
+    <filter id="glow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Crimson Glow Filter -->
+    <filter id="glow-crimson" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Sepia Backdrop -->
+  <rect width="800" height="240" fill="url(#bgGrad)"/>
+  <rect width="800" height="240" fill="url(#grid)"/>
+  
+  <!-- Outer double border with diagonal cuts -->
+  <path d="M 12 12 L 750 12 L 762 24 L 788 24 L 788 228 L 12 228 Z" fill="none" stroke="#333333" stroke-width="1" />
+  <path d="M 15 15 L 748 15 L 760 27 L 785 27 L 785 225 L 15 225 Z" fill="none" stroke="#D6B36A" stroke-width="1" opacity="0.8" />
+
+  <!-- LEFT SECTION: OPERATIVE VIEWPORT (Mysterious Vector Shield/Wings Placeholder) -->
+  <g transform="translate(25, 20)">
+    <!-- Outer viewport frame (Cathedral window silhouette) -->
+    <path d="M 0 200 L 0 70 C 0 20 50 0 100 0 C 150 0 200 20 200 70 L 200 200 Z" fill="#030303" stroke="#D6B36A" stroke-width="1.5"/>
+    
+    <!-- Holy-tech background graphics (Concentric Halo Rings) -->
+    <g transform="translate(100, 100)">
+      <circle cx="0" cy="0" r="60" stroke="#D6B36A" stroke-width="0.5" opacity="0.3" stroke-dasharray="5,3"/>
+      <circle cx="0" cy="0" r="45" stroke="#D6B36A" stroke-width="1" opacity="0.2"/>
+      <circle cx="0" cy="0" r="30" stroke="#C1121F" stroke-width="0.75" opacity="0.25"/>
+      <!-- Sunburst Ticks -->
+      <path d="M 0 -68 L 0 -62 M 0 68 L 0 62 M -68 0 L -62 0 M 68 0 L 62 0" stroke="#D6B36A" stroke-width="1" opacity="0.5"/>
+    </g>
+
+    <!-- Faction Crest (Wings + Halo) in Viewport Center -->
+    <g transform="translate(100, 100)">
+      <circle cx="0" cy="0" r="28" stroke="#D6B36A" stroke-width="0.75" stroke-dasharray="2,3" opacity="0.7"/>
+      <!-- Wings (Gothic detailed feathers) -->
+      <path d="M -22 -3 C -32 -13 -45 -3 -42 12 C -36 17 -30 7 -22 -3 Z" fill="#D6B36A" fill-opacity="0.1" stroke="#D6B36A" stroke-width="1"/>
+      <path d="M 22 -3 C 32 -13 45 -3 42 12 C 36 17 30 7 22 -3 Z" fill="#D6B36A" fill-opacity="0.1" stroke="#D6B36A" stroke-width="1"/>
+      <!-- Central shield/sigil symbol -->
+      <path d="M -8 -8 L 8 -8 L 12 4 L 0 16 L -12 4 Z" fill="#C1121F" fill-opacity="0.2" stroke="#C1121F" stroke-width="1" filter="url(#glow-crimson)"/>
+      <polygon points="0,-4 1.5,-1 5,-1 2.5,1 3.5,4 0,2 -3.5,4 -2.5,1 -5,-1 -1.5,-1" fill="#EDE6D6"/>
+    </g>
+    
+    <!-- CLASSIFIED / CONFIDENTIAL Ribbon -->
+    <g transform="translate(100, 145)">
+      <rect x="-80" y="-8" width="160" height="16" fill="#C1121F" opacity="0.8" transform="rotate(-15)" filter="url(#glow-crimson)"/>
+      <text x="0" y="4" font-family="Cinzel" font-size="8.5" font-weight="900" fill="#EDE6D6" text-anchor="middle" letter-spacing="2" transform="rotate(-15)">CLASSIFIED</text>
+    </g>
+
+    <!-- Camera Overlay (Static / Scanning Line) -->
+    <rect width="200" height="200" fill="url(#scanlines)" pointer-events="none" opacity="0.4"/>
+    
+    <!-- Cathedral Arch Inner Frame Details -->
+    <path d="M 5 195 L 5 72 C 5 26 48 5 98 5 C 148 5 191 26 191 72 L 191 195" fill="none" stroke="#D6B36A" stroke-width="0.5" opacity="0.4"/>
+    
+    <!-- Animated Scanning Line -->
+    <line x1="2" y1="0" x2="194" y2="0" stroke="#EDE6D6" stroke-width="1.5" opacity="0.75">
+      <animate attributeName="y1" values="2;198;2" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="2;198;2" dur="4s" repeatCount="indefinite" />
+    </line>
+
+    <!-- REC Indicator -->
+    <circle cx="20" cy="20" r="4" fill="#C1121F">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="30" y="23" font-family="Share Tech Mono" font-size="8" fill="#C1121F" font-weight="bold">FEED: ACTIVE</text>
+    
+    <!-- Status footer of camera -->
+    <rect x="2" y="178" width="196" height="20" fill="#000000" fill-opacity="0.9"/>
+    <text x="8" y="191" font-family="Share Tech Mono" font-size="9" fill="#D6B36A">NODE_DEC // 84c703a0</text>
+  </g>
+
+  <!-- RIGHT SECTION: OPERATIVE METADATA DOSSIER -->
+  <g transform="translate(245, 20)">
+    <!-- Header -->
+    <text x="10" y="15" class="hud-header">[ OPERATIVE SPECIFICATION ]</text>
+    <line x1="10" y1="23" x2="520" y2="23" stroke="#444444" stroke-width="1.5"/>
+    <rect x="10" y="23" width="60" height="2" fill="#D6B36A"/>
+
+    <!-- Spec Fields (Table-like grid) -->
+    <!-- Row 1 -->
+    <g transform="translate(10, 40)">
+      <text x="0" y="10" class="hud-label">CODENAME</text>
+      <text x="120" y="10" class="hud-value-ivory">vtgh1602</text>
+      <line x1="0" y1="18" x2="510" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.3"/>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(10, 65)">
+      <text x="0" y="10" class="hud-label">CORE</text>
+      <text x="120" y="10" class="hud-value">INTELLIGENT SYSTEMS &amp; VECTOR INFRASTRUCTURE</text>
+      <line x1="0" y1="18" x2="510" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.3"/>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(10, 90)">
+      <text x="0" y="10" class="hud-label">SIMULATION NODE</text>
+      <text x="120" y="10" class="hud-value">STATE SYNCHRONIZATION</text>
+      <line x1="0" y1="18" x2="510" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.3"/>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(10, 115)">
+      <text x="0" y="10" class="hud-label">DEPLOYMENT</text>
+      <text x="120" y="10" class="hud-value-gold">PRODUCTION STACK [STATUS: SECURE_LAT]</text>
+      <line x1="0" y1="18" x2="510" y2="18" stroke="#D6B36A" stroke-width="0.5" stroke-dasharray="2,3" opacity="0.3"/>
+    </g>
+
+    <!-- Tactical Analysis Log Section -->
+    <g transform="translate(10, 140)">
+      <rect x="0" y="0" width="510" height="60" fill="#11100E" fill-opacity="0.8" stroke="#D6B36A" stroke-width="1" opacity="0.95"/>
+      <path d="M 0 0 L 10 0 L 0 10 Z" fill="#C1121F"/>
+      <text x="14" y="15" font-family="Share Tech Mono" font-size="9" font-weight="bold" fill="#D6B36A">LATERANO SACRED ARCHIVE // DIAGNOSTICS:</text>
+      
+      <text x="14" y="32" class="hud-desc" font-size="10">Building scalable AI-driven systems with modern engineering workflows.</text>
+      <text x="14" y="46" class="hud-desc" font-size="10">Focused on intelligent infrastructure, clean architecture, and realtime orchestration.</text>
+      
+      <!-- Tech lines/barcode details in dossier log -->
+      <g transform="translate(430, 10)">
+        <rect x="0" y="0" width="2" height="12" fill="#D6B36A" />
+        <rect x="3" y="0" width="1" height="12" fill="#D6B36A" />
+        <rect x="6" y="0" width="2" height="12" fill="#D6B36A" opacity="0.5" />
+        <rect x="9" y="0" width="3" height="12" fill="#D6B36A" />
+        <rect x="13" y="0" width="1" height="12" fill="#D6B36A" />
+      </g>
+    </g>
+  </g>
+</svg>
