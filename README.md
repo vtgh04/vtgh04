@@ -4,19 +4,19 @@
 
 <!-- IDENTITY WIDGETS -->
 <div align="center">
-  <img src="images/header.svg?v=4" width="800" alt="V. T. G. Huy // Command Identity" />
+  <img src="svg/header.svg?v=4" width="800" alt="V. T. G. Huy // Command Identity" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="images/profile_card.svg?v=4" width="800" alt="Operative Dossier" />
+  <img src="svg/profile_card.svg?v=4" width="800" alt="Operative Dossier" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="images/divider.svg?v=4" width="800" alt="Tactical Spacer" />
+  <img src="svg/divider.svg?v=4" width="800" alt="Tactical Spacer" />
 </div>
 
 <br>
@@ -26,7 +26,7 @@
 
 <div align="center">
   <a href="https://github.com/vtgh04/TodoX">
-    <img src="images/project_todox.svg?v=4" width="800" alt="OP // TODO-X-MATRIX" />
+    <img src="svg/project_todox.svg?v=4" width="800" alt="OP // TODO-X-MATRIX" />
   </a>
 </div>
 
@@ -34,7 +34,7 @@
 
 <div align="center">
   <a href="https://github.com/vtgh04/RapPhim">
-    <img src="images/project_rapphim.svg?v=4" width="800" alt="OP // RAP-PHIM-MATRIX" />
+    <img src="svg/project_rapphim.svg?v=4" width="800" alt="OP // RAP-PHIM-MATRIX" />
   </a>
 </div>
 
@@ -42,14 +42,14 @@
 
 <div align="center">
   <a href="https://github.com/vtgh04/ECOCITYFARM">
-    <img src="images/project_ecocity.svg?v=4" width="800" alt="OP // ECOCITY-MATRIX" />
+    <img src="svg/project_ecocity.svg?v=4" width="800" alt="OP // ECOCITY-MATRIX" />
   </a>
 </div>
 
 <br>
 
 <div align="center">
-  <img src="images/divider.svg?v=4" width="800" alt="Tactical Spacer" />
+  <img src="svg/divider.svg?v=4" width="800" alt="Tactical Spacer" />
 </div>
 
 <br>
@@ -61,10 +61,10 @@
 <table align="center" style="width: 800px; border-collapse: collapse; border: none; background-color: #090807; margin: 0 auto;">
   <tr>
     <td style="width: 50%; padding: 0 8px 0 0; border: none; background-color: #090807;">
-      <img src="images/github_stats.svg?v=4" width="100%" alt="GitHub Stats" />
+      <img src="svg/github_stats.svg?v=4" width="100%" alt="GitHub Stats" />
     </td>
     <td style="width: 50%; padding: 0 0 0 8px; border: none; background-color: #090807;">
-      <img src="images/skills.svg?v=4" width="100%" alt="Top Languages" />
+      <img src="svg/skills.svg?v=4" width="100%" alt="Top Languages" />
     </td>
   </tr>
 </table>
