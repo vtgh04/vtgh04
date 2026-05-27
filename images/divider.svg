@@ -1,22 +1,50 @@
 <svg width="800" height="16" viewBox="0 0 800 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Center Line -->
-  <line x1="10" y1="8" x2="370" y2="8" stroke="#17364F" stroke-width="1.5"/>
-  <line x1="430" y1="8" x2="790" y2="8" stroke="#17364F" stroke-width="1.5"/>
-  
-  <!-- Left/Right End Caps -->
-  <circle cx="10" cy="8" r="2" fill="#17364F"/>
-  <circle cx="790" cy="8" r="2" fill="#17364F"/>
-  
-  <!-- Tech Indicators near center -->
-  <line x1="350" y1="4" x2="350" y2="12" stroke="#17364F" stroke-width="1"/>
-  <line x1="450" y1="4" x2="450" y2="12" stroke="#17364F" stroke-width="1"/>
+  <defs>
+    <!-- Fonts -->
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+      .div-text {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 8px;
+        fill: #888888;
+        letter-spacing: 2px;
+      }
+    ]]></style>
+  </defs>
 
-  <!-- Center Diamond & Crosshairs -->
+  <!-- Left Line Segment -->
+  <line x1="10" y1="8" x2="340" y2="8" stroke="#333333" stroke-width="1"/>
+  <line x1="20" y1="10" x2="320" y2="10" stroke="#888888" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="40" y1="6" x2="140" y2="6" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+  
+  <!-- Right Line Segment -->
+  <line x1="460" y1="8" x2="790" y2="8" stroke="#333333" stroke-width="1"/>
+  <line x1="480" y1="10" x2="780" y2="10" stroke="#888888" stroke-width="0.5" stroke-dasharray="2,3"/>
+  <line x1="660" y1="6" x2="760" y2="6" stroke="#ffffff" stroke-width="0.75" opacity="0.4"/>
+
+  <!-- Left Tech Details -->
+  <rect x="10" y="6" width="2" height="4" fill="#ffffff"/>
+  <circle cx="16" cy="8" r="1.5" fill="#888888"/>
+  <path d="M 28 4 L 32 8 L 28 12" fill="none" stroke="#444444" stroke-width="1"/>
+  
+  <!-- Right Tech Details -->
+  <rect x="788" y="6" width="2" height="4" fill="#ffffff"/>
+  <circle cx="784" cy="8" r="1.5" fill="#888888"/>
+  <path d="M 772 4 L 768 8 L 772 12" fill="none" stroke="#444444" stroke-width="1"/>
+
+  <!-- Center Dossier Badge -->
   <g transform="translate(400, 8)">
-    <path d="M 0 -6 L 6 0 L 0 6 L -6 0 Z" fill="#0D1A2F" stroke="#BD0927" stroke-width="1.5"/>
-    <circle cx="0" cy="0" r="2" fill="#09DBC7"/>
-    <!-- Outer accent ticks -->
-    <line x1="-12" y1="0" x2="-8" y2="0" stroke="#09DBC7" stroke-width="1"/>
-    <line x1="8" y1="0" x2="12" y2="0" stroke="#09DBC7" stroke-width="1"/>
+    <!-- Tech brackets -->
+    <path d="M -50 -5 L -54 -5 L -54 5 L -50 5" fill="none" stroke="#ffffff" stroke-width="1"/>
+    <path d="M 50 -5 L 54 -5 L 54 5 L 50 5" fill="none" stroke="#ffffff" stroke-width="1"/>
+    
+    <!-- Text -->
+    <text x="0" y="3" class="div-text" text-anchor="middle">SYS_CONN // LINK_ESTABLISHED</text>
+    
+    <!-- Warning stripes / warning tick marks -->
+    <line x1="-66" y1="7" x2="-62" y2="3" stroke="#ffffff" stroke-width="1" opacity="0.8"/>
+    <line x1="-62" y1="7" x2="-58" y2="3" stroke="#ffffff" stroke-width="1" opacity="0.8"/>
+    <line x1="58" y1="7" x2="62" y2="3" stroke="#ffffff" stroke-width="1" opacity="0.8"/>
+    <line x1="62" y1="7" x2="66" y2="3" stroke="#ffffff" stroke-width="1" opacity="0.8"/>
   </g>
 </svg>
