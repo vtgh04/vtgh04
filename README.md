@@ -22,8 +22,6 @@
 <br>
 
 <!-- ACTIVE CONTRACTS / OPERATIONS -->
-<h2 align="center" style="font-family: monospace; color: #D6B36A; letter-spacing: 3px; font-size: 16px;">[ PROJECTS ]</h2>
-
 <div align="center">
   <a href="https://github.com/vtgh04/TodoX">
     <img src="svg/project_todox.svg?v=4" width="800" alt="OP // TODO-X-MATRIX" />
@@ -55,8 +53,6 @@
 <br>
 
 <!-- TELEMETRY / STATS -->
-<h2 align="center" style="font-family: monospace; color: #C1121F; letter-spacing: 3px; font-size: 16px;">[ TACTICAL TELEMETRY DIAGNOSTICS ]</h2>
-
 <!-- DUAL WIDGET SPLIT TABLE -->
 <table align="center" style="width: 800px; border-collapse: collapse; border: none; background-color: #090807; margin: 0 auto;">
   <tr>
